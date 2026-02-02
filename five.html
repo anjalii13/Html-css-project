@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <style>
+        .page {
+            background: linear-gradient(pink, rgb(218, 154, 218), rgb(163, 236, 246));
+            width: 60%;
+            max-height: 100vh;
+            text-align: center;
+            margin-left: 10rem;
+        }
+
+        .card {
+            text-align: left;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            color: lightslategrey;
+            margin: 0 20px;
+
+        }
+
+        input {
+            margin: 0 20px;
+            width: 550px;
+            margin: 10px;
+            height: 25px;
+        }
+
+        sup {
+            color: red;
+        }
+
+        .row {
+            display: flex;
+            flex: 1;
+            width: 82%;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+
+        .row input {
+            width: 50%;
+        }
+
+        .verify {
+    width: 300px;
+    background-color: white;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 50px;
+}
+
+        input[type="checkbox"] {
+    width: auto;
+    height: auto;
+    margin: 0 40px 0px 19px;
+
+}
+.btn{
+    color: white;
+            background-color: rgb(163, 187, 116);
+            border: none;
+            width: 200px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 18rem;
+            margin-bottom: 30px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1 style="font-weight: 100; color: lightslategray;">School Championship Registration Form</h1>
+        <div class="card">
+            <label for="schoolname">School Name :<sup>*</sup></label>
+            <input type="text" name="schoolname" id="schoolname">
+
+            <br>
+
+            <label for="schoolername" class="ll">Schooler Name:<sup>*</sup></label>
+            <div class="row">
+                <input type="text" name="schoolername" id="schoolername" placeholder="First">
+                <input type="text" name="schoolername" id="schoolername" placeholder="Last">
+            </div>
+
+            <label for="parentname" class="ll">Parent Name:<sup>*</sup></label>
+            <div class="row">
+                <input type="text" name="parentname" id="parentname" placeholder="First">
+                <input type="text" name="parentname" id="parentname" placeholder="Last">
+            </div>
+
+            <label for="parentphone">Parent Phone:<sup>*</sup></label>
+            <input type="number" name="" id="" placeholder="##########">
+
+            <label for="parentemail">Parent Email:<sup>*</sup></label>
+            <input type="email" name="parentemail" id="parentemail">
+
+            <label for="sport">Preferred Sport:<sup>*</sup></label>
+            <input type="text" name="sport" id="sport">
+
+            <p style="text-align: center;color: lightslategrey;">Verification <sup> *</sup></p>
+            <div class="verify">
+
+                <input type="checkbox" name="captcha" id="captcha">I'm not a Robot<i class="fa fa-user-secret"
+                    aria-hidden="true"></i>
+            </div>
+<button class="btn">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .page {
+            background: linear-gradient(rgb(170, 235, 170), green);
+            max-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .card {
+            width: 900px;
+            height: 500px;
+            background-color: white;
+            margin: 30px;
+            border-radius: 30px;
+            display: flex;
+
+        }
+
+        .left {
+            background-color: rgb(9, 64, 60);
+            width: 50%;
+            border-radius: 30px 180px 180px 30px;
+        }
+
+        .leftdata {
+            color: white;
+            text-align: center;
+            margin-top: 10rem;
+        }
+
+        .leftbtn {
+            background: transparent;
+            padding: 10px;
+            width: 150px;
+            margin-top: 40px;
+
+        }
+
+        .right {
+
+            width: 50%;
+        }
+
+        .rightdata {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .icon {
+            display: flex;
+            gap: 30px;
+            margin-left: 8.5rem;
+            margin-top: 30px;
+
+        }
+        .input{
+            margin: 10px;
+            width: 70%;
+            height: 30px;
+            background-color: rgb(211, 205, 205);
+            border: none;
+        }
+        .rightbtn{
+            color: white;
+            background-color: rgb(163, 187, 116);
+            border: none;
+            width: 50%;
+            height: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="card">
+            <div class="left">
+                <div class="leftdata">
+                    <h1>Welcome Back!!</h1>
+                    <p>Provide your personal details to use all features</p>
+                    <button class="leftbtn">SIGN IN</button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="rightdata">
+                    <h1>Register With</h1>
+                    <div class="icon"><i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <h1>OR</h1>
+                    <p style="font-size: small;color: rgb(169, 166, 166);">Fill out the following info for registration
+                    </p>
+                    <div class="form">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Name" class="input">
+                        <br>
+
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="E-mail" class="input">
+                        <br>
+                        <label for="pass"></label>
+                        <input type="password" name="pass" id="pass" placeholder="Password" class="input"><br>
+                        <button class="rightbtn">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
