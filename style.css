@@ -1,0 +1,151 @@
+.sectionone {
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+.sectionone img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 20px;
+    font-size: 2.5rem;
+    font-family: cursive;
+    padding-left: 20rem;
+    padding-top: 5rem;
+    color: white;
+    width: 500px;
+}
+
+.btn {
+    margin-left: 1rem;
+    border-radius: 20px 20px 20px 20px;
+    font-size: large;
+    background: transparent;
+    color: white;
+    padding: 15px;
+    width: 150px;
+}
+
+.btn:hover {
+    background-color: rgb(114, 135, 84);
+}
+
+.sectiontwo {
+    background: linear-gradient(rgb(214, 106, 106), rgb(231, 190, 114));
+    width: 70%;
+    height: 500px;
+    position: relative;
+    margin-left: 10rem;
+}
+
+.bg {
+    background-color: white;
+    width: 700px;
+    height: 350px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+
+.girlimg {
+    height: 350px;
+    width: 200px;
+    margin-left: 25rem;
+}
+
+.left {
+
+    position: absolute;
+    top: 20px;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-left: 2rem;
+    height: 300px;
+    width: 400px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: orange;
+    border-radius: 6px 0 6px 0;
+    font-size: small;
+    color: white;
+    font-family: cursive;
+    height: 50px;
+    border: 0;
+    width: 100px;
+    box-shadow: 3px 3px 6px -1px red;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 1px 1px red;
+    color: red;
+    cursor: pointer;
+}
+.sectionthree{
+    display: flex;
+   
+    height: 400px;
+    width: 900px;
+    margin-left: 8rem;
+    
+   
+}
+.rightdiv{
+    flex: 50%;
+    margin-left: 27rem;
+    position: absolute;
+  
+}
+.leftdiv{
+    flex: 50%;
+   margin-left: 11rem;
+    position: relative;
+  
+}
+.rightdiv img{
+    width: 50%;
+   
+ 
+}
+.explore{
+    background-color: rgb(8, 8, 97);
+    color: white;
+    border-radius: 40px;
+    font-size: small;
+    padding: 5px 15px;
+}   
+.demo{
+    background: transparent;
+    border: 1px solid rgb(8, 8, 97);
+    border-radius: 40px;
+    font-size: small;
+    padding: 5px 15px;
+    margin-left: 1rem;
+}
+.demo:hover{
+    box-shadow: 1px 1px 1px 2px black;
+}
+.badges{
+    display: flex;
+    gap: 13px;
+    margin-left: 35rem;
+    position: absolute;
+   margin-top: -5rem;
+}
+.badges div{
+    font-size: small;
+    border: 1px solid black;
+    background-color: rgb(8, 8, 97);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
